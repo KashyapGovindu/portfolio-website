@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Your Name</title>
+    <title>About - Kashyap Govindu</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="../projects/index.html">Projects</a></li>
-                <li><a href="../research/index.html">Research</a></li>
-                <li><a href="../index.html#contact">Contact</a></li>
-            </ul>
+    <div class="container">
+        <nav class="nav-menu">
+            <a href="../index.html" class="nav-link">/home</a>
+            <a href="index.html" class="nav-link">/about</a>
+            <a href="../projects/index.html" class="nav-link">/projects</a>
+            <a href="../research/index.html" class="nav-link">/research</a>
+            <a href="../contact/index.html" class="nav-link">/contact</a>
         </nav>
-    </header>
 
-    <main>
-        <div class="about-container">
-            <div class="profile-section">
-                <h1>About Me</h1>
+        <section class="section">
+            <h1 class="section-title">About Me</h1>
+            
+            <div class="about-content">
                 <div class="intro-text">
                     <p class="highlight">
                         Passionate Software Engineer with expertise in DataCenter Networking, 
@@ -32,85 +29,74 @@
                     </p>
                 </div>
 
-                <div class="about-content">
-                    <div class="mission-statement">
-                        <h3>My Mission</h3>
-                        <p>
-                            To revolutionize network infrastructure through innovative solutions that 
-                            bridge the gap between complex networking challenges and elegant, 
-                            scalable implementations.
-                        </p>
-                    </div>
+                <div class="mission-statement">
+                    <h3>My Mission</h3>
+                    <p>
+                        To revolutionize network infrastructure through innovative solutions that 
+                        bridge the gap between complex networking challenges and elegant, 
+                        scalable implementations.
+                    </p>
+                </div>
 
-                    <div class="expertise-section">
-                        <h3>Core Expertise</h3>
-                        <div class="expertise-grid">
-                            <div class="expertise-card">
-                                <i class="fas fa-network-wired"></i>
-                                <h4>Network Architecture</h4>
-                                <p>Designing and optimizing SDN solutions with a focus on scalability and performance</p>
-                            </div>
-                            <div class="expertise-card">
-                                <i class="fas fa-code-branch"></i>
-                                <h4>Protocol Development</h4>
-                                <p>Expert in Opflex protocol implementation and VM integrations</p>
-                            </div>
-                            <div class="expertise-card">
-                                <i class="fas fa-robot"></i>
-                                <h4>Automation</h4>
-                                <p>Creating robust testing frameworks and development automation tools</p>
-                            </div>
+                <div class="expertise-section">
+                    <h3>Core Expertise</h3>
+                    <div class="expertise-grid">
+                        <div class="expertise-card">
+                            <i class="fas fa-network-wired"></i>
+                            <h4>Network Architecture</h4>
+                            <p>Designing and optimizing SDN solutions with a focus on scalability and performance</p>
                         </div>
-                    </div>
-
-                    <div class="experience-section">
-                        <h3>Professional Journey</h3>
-                        <div class="experience-item featured">
-                            <h4>Software Engineer - Cisco Systems</h4>
-                            <br>
-                            <div class="achievements">
-                                <p class="achievement-intro">Key Achievements:</p>
-                                <ul>
-                                    <li>
-                                        <span class="achievement-highlight">50% Performance Boost</span> - 
-                                        Revolutionized OpenStack controller-generated network policies in APIC, 
-                                        significantly enhancing network efficiency
-                                    </li>
-                                    <li>
-                                        <span class="achievement-highlight">2x Speed Improvement</span> - 
-                                        Optimized opflexp architecture using advanced data structures, 
-                                        doubling the performance of critical operations
-                                    </li>
-                                    <li>
-                                        <span class="achievement-highlight">60% Time Reduction</span> - 
-                                        Engineered comprehensive automation tools that dramatically 
-                                        reduced development and testing cycles
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="expertise-card">
+                            <i class="fas fa-code-branch"></i>
+                            <h4>Protocol Development</h4>
+                            <p>Expert in Opflex protocol implementation and VM integrations</p>
                         </div>
-                    </div>
-
-                    <div class="philosophy-section">
-                        <h3>What Drives Me</h3>
-                        <p>
-                            I'm naturally drawn to the cutting edge of technology. From exploring quantum computing's 
-                            potential to diving deep into the transformers that power modern AI, I love pushing the 
-                            boundaries of what's possible. My fascination with reinforcement learning and cybersecurity 
-                            keeps me constantly learning and experimenting. Whether it's finding innovative ways to 
-                            secure systems or automating daily tasks, I get excited about building solutions that 
-                            bridge the gap between emerging technologies and practical applications.
-                        </p>
+                        <div class="expertise-card">
+                            <i class="fas fa-robot"></i>
+                            <h4>Automation</h4>
+                            <p>Creating robust testing frameworks and development automation tools</p>
+                        </div>
                     </div>
                 </div>
+
+                <div class="experience-section">
+                    <h3>Professional Journey</h3>
+                    <div class="experience-item featured">
+                        <h4>Software Engineer - Cisco Systems</h4>
+                        <br>
+                        <div class="achievements">
+                            <p class="achievement-intro">Key Achievements:</p>
+                            <ul>
+                                <li>
+                                    <span class="achievement-highlight">50% Performance Boost</span> - 
+                                    Revolutionized OpenStack controller-generated network policies in APIC, 
+                                    significantly enhancing network efficiency
+                                </li>
+                                <li>
+                                    <span class="achievement-highlight">2x Speed Improvement</span> - 
+                                    Optimized opflexp architecture using advanced data structures, 
+                                    doubling the performance of critical operations
+                                </li>
+                                <li>
+                                    <span class="achievement-highlight">60% Time Reduction</span> - 
+                                    Engineered comprehensive automation tools that dramatically 
+                                    reduced development and testing cycles
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="philosophy-section">
+                    <h3>What Drives Me</h3>
+                    <p>
+                        I'm naturally drawn to the cutting edge of technology. From exploring quantum computing's 
+                        potential to diving deep into the transformers that power modern AI, I love pushing the boundaries 
+                        of what's possible in software engineering.
+                    </p>
+                </div>
             </div>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
-
-    <script src="../js/main.js"></script>
+        </section>
+    </div>
 </body>
 </html>
